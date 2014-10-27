@@ -17,19 +17,19 @@ banana pi 基础之连接
 ###连接bananapi
 
 >我的无线路由器不能接入网线，怎么办呢？这样处理，打开电脑->网络->右键属性->更改适配器设置->选择WlAN右键属性->允许其它网络用户通过计算机的Internet打钩
-![wlan连接](../images/wlan.png)
+![wlan连接](https://raw.githubusercontent.com/widuu/banana-pi/master/images/wlan.png)
 
 >然后将banana pi连接的网线口一端连接电脑，开机启动,我的电源用的是充电宝，输出最大是2.1A
 
-![连接banana pi](../images/IMG_0078.JPG)
+![连接banana pi](https://raw.githubusercontent.com/widuu/banana-pi/master/images/IMG_0078.JPG)
 
 >这时候windows电脑->调出运行->cmd->arp -a查看我的IP地址如下
 
-![arp -a](../images/arp.png)
+![arp -a](https://raw.githubusercontent.com/widuu/banana-pi/master/images/arp.png)
 
 >然后putty连接,OK登陆上去了,
 
-![putty](../images/bananapi-linux.png)
+![putty](https://raw.githubusercontent.com/widuu/banana-pi/master/images/bananapi-linux.png)
 
 	#安装vnc
 	apt-get install tightvncserver
@@ -42,7 +42,7 @@ banana pi 基础之连接
 >OK,现在连接VNC
 
 
-![vnc](../images/vnc.png)
+![vnc](https://raw.githubusercontent.com/widuu/banana-pi/master/images/vnc.png)
 
 OK，到这里就结束了，我们手上就两样东西，一个移动电源，一个网线现在也可以用了！
 
